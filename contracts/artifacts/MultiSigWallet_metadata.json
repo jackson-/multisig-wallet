@@ -6,6 +6,22 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_owners",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "required",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -92,6 +108,19 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_txId",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					},
@@ -166,6 +195,29 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "submit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -196,6 +248,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -226,11 +282,11 @@
 	},
 	"sources": {
 		"contracts/MultiSigWallet.sol": {
-			"keccak256": "0x2fb2437eaa391d50caa56db957bb6acf979ff08647f95fadb1e3e8500122edd8",
+			"keccak256": "0xa8236cdecafb817342c70a9ae866d3b0a0c827a2b6c03240593f02dba3bea3a4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a234d470513e0085f089a24498742d48426d8af40d45786d8fc00493e2f34268",
-				"dweb:/ipfs/QmZRmKami597cadFTSV7kJtBhvEy9v46Us2ik7EsQ9z7rs"
+				"bzz-raw://3bdf9ffe5789ff6caff40c91a4e85173b47b47a0984546652202bb0b451c4ddb",
+				"dweb:/ipfs/QmXaUCpqXz3Kopjop79bnsby7fmndJprSJFB9QaMHPoa4b"
 			]
 		}
 	},
