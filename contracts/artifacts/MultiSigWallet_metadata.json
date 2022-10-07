@@ -208,6 +208,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_txId",
+						"type": "uint256"
+					}
+				],
+				"name": "revoke",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "_to",
 						"type": "address"
@@ -295,11 +308,11 @@
 	},
 	"sources": {
 		"contracts/MultiSigWallet.sol": {
-			"keccak256": "0x4df68724545c06dc4258ac79df98717ad0e00f1f0b2bcdece6d9a4823c92f1db",
+			"keccak256": "0x231af19a4aa43fbe49047aef1a859d5308a3740e0dab2cab2890c6b8be201ecc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f662eb2176da5ac93e536096bc3fdab7eb665ab6e03ffd4f52ae12c1a50978e8",
-				"dweb:/ipfs/QmQeL1vaZk9CEB4JSv4uW8qkEquuW1wkccb6oAaqfrDieG"
+				"bzz-raw://a9ea19b69ffe780f6b762248102cc3a8e6c96376ff9c37904500fef84f524eb9",
+				"dweb:/ipfs/QmSBdxZpQDp39Bzm2gLMN3tW9SQVtdoKjyYVQamqiZhqKi"
 			]
 		}
 	},
